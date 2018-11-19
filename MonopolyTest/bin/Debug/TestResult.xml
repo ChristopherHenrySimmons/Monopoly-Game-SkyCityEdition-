@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-08-26" time="07:31:17">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun" machine-name="PFL8560P-41" user="AssTon" user-domain="PCSUPPORT" />
+  <culture-info current-culture="en-NZ" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe" executed="True" result="Failure" success="False" time="0.006" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MonopolyTest" executed="True" result="Failure" success="False" time="0.006" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="_BoardTest" executed="True" result="Failure" success="False" time="0.006" asserts="0">
+            <results>
+              <test-case name="MonopolyTest._BoardTest.TestDrawChance" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\Config\Cards.ini'.]]></message>
+                  <stack-trace><![CDATA[at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+at System.IO.StreamReader..ctor(String path)
+at Monopoly.Monopoly.loadCards() in E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\Monopoly\Monopoly.cs:line 298
+at MonopolyTest._BoardTest.TestDrawChance() in E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\_BoardTest.cs:line 53
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

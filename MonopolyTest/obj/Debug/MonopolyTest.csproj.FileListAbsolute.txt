@@ -1,0 +1,40 @@
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe.config
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.csprojResolveAssemblyReference.cache
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.pdb
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.exe
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.dll
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.xml
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.exe
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.pdb
+E:\学习\Whitireia\GDIT\Semester1\IT7x22 SoftwareDevelopment\Assignment\Assignment-2\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.pdb
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe.config
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.pdb
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.exe
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.dll
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.pdb
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.xml
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.csprojResolveAssemblyReference.cache
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.exe
+E:\Whitireia\IT7x22 -IT7302 - C#\2016\Assessments\Student Submission, Assignment Two\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.pdb
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe.config
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.exe
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\MonopolyTest.pdb
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.exe
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.dll
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\Monopoly.pdb
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\bin\Debug\nunit.framework.xml
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.csprojResolveAssemblyReference.cache
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.exe
+E:\__IT7x22 C#\Assessments\IT7x22_Assignment2_21602704_TaoSun\MonopolyTest\MonopolyTest\obj\Debug\MonopolyTest.pdb
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\MonopolyTest.exe.config
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\MonopolyTest.exe
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\MonopolyTest.pdb
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\Monopoly.exe
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\nunit.framework.dll
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\Monopoly.pdb
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\bin\Debug\nunit.framework.xml
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\obj\Debug\MonopolyTest.csprojResolveAssemblyReference.cache
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\obj\Debug\MonopolyTest.exe
+E:\__IT7x22 C#\Assessments\Monopoly Game(Template)\MonopolyTest\obj\Debug\MonopolyTest.pdb
