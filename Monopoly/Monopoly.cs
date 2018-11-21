@@ -525,7 +525,7 @@ namespace Monopoly
                     break;
             }
         }
-        //CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*
+        //NewRent class
 
         public void changeRent(Player player)
         {
@@ -572,7 +572,7 @@ namespace Monopoly
                 Console.WriteLine(">>>>>>>>>>{0}Rent for house on {1} has been changed from {2} to {3}!<<<<<<<<<<", playerPrompt(player), residential.getName(), oldRent, newRent);
             }
         }
-        //CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*
+        //NewRent Class End
 
         public void purchaseProperty(Player player)
         {
@@ -1102,7 +1102,7 @@ namespace Monopoly
             }
             return true;
         }
-        //CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*CHANGED*
+        //DisplayMenuInCasino a menu to show the options in the casino
         public void displayMenuInCasino(int indexOfPlayer)
         {
             int resp = 0;
@@ -1127,7 +1127,7 @@ namespace Monopoly
                 Console.WriteLine("                 5. Save Game");
                 Console.WriteLine("                 6. Quit Game");
 
-                Console.WriteLine("                 7. Sleep the night");
+                Console.WriteLine("                 7. Pay ($50) to Sleep the night");
                 Console.WriteLine("                 =======================================");
                 Console.Write("                 (1-7)=>");
 
@@ -1185,7 +1185,14 @@ namespace Monopoly
                         break;
 
                     case 7:
-                        player.pay(50);
+                        if (this.payForSleep(player))
+                        {
+                            this.makePlay(indexOfPlayer);
+                        }
+                        else
+                        {
+                            this.displayMenuInCasino(indexOfPlayer);
+                        }
                         break;
                     default:
                         Console.WriteLine(">>>>>>>>>>That option is not avaliable. Please try again.<<<<<<<<<<");
@@ -1396,8 +1403,8 @@ namespace Monopoly
             if (i >3)
             {
                 Console.WriteLine("------------------------------------------------------------------");
-                Console.WriteLine($">>>>>>>>>>{player.getName()}:Congratulation! You won big ($500)!!!<<<<<<<<<<");
-                player.receive(500);
+                Console.WriteLine($">>>>>>>>>>{player.getName()}:Congratulation! You won big ($150)!!!<<<<<<<<<<");
+                player.receive(150);
                 player.IsInCasino = false;
                 
 
@@ -1431,6 +1438,26 @@ namespace Monopoly
                 player.FailureRollDouble = 0;   //The counter is cleared when go out of the jail
                 Console.WriteLine("----------------------------------------------------------");
                 Console.WriteLine($">>>>>>>>>>{player.getName()}:Congratulation! You leave the jail!!!<<<<<<<<<<");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("----------------------------------------------------------");
+                Console.WriteLine($">>>>>>>>>>{player.getName()}, you have no enough money to pay the $50!<<<<<<<<<<");
+                return false;
+            }
+        }
+        //Pay for Sleep at SkyCity
+        public bool payForSleep(Player player)
+        {
+            if (player.getBalance() >= 50)
+            {
+                player.pay(50);
+                player.IsInCasino = false;
+                player.DoubleCount = 0;         //The counter is cleared when go out of the casino
+                player.FailureRollDouble = 0;   //The counter is cleared when go out of the casino
+                Console.WriteLine("----------------------------------------------------------");
+                Console.WriteLine($">>>>>>>>>>{player.getName()}:You slept at SkyCity, now your ready to leave<<<<<<<<<<");
                 return true;
             }
             else

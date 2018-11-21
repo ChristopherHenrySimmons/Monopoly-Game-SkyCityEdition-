@@ -93,6 +93,17 @@ namespace MonopolyTest
 
             m.displayMenuInJail(0);
         }
+        //Test display menu in casino
+        [Test]
+        public void TestDisplayMenuInCasino()
+        {
+            Monopoly.Monopoly m = new Monopoly.Monopoly();
+            m.loadProperties();
+            Player player = new Player("Tom", 1000);
+            Board.access().addPlayer(player);
+
+            m.displayMenuInCasino(0);
+        }
 
         // need user's input
         [Test]
@@ -216,6 +227,22 @@ namespace MonopolyTest
             Assert.AreEqual(true, player1.IsInJail);
         }
 
+        //Casino Test Pay ($50) to Sleep the night
+        [Test]
+        public void TestPayForSleep()
+        {
+            Monopoly.Monopoly m = new Monopoly.Monopoly();
+            Player player1 = new Player("Tom", 1000);
+            Player player2 = new Player("Jerry", 10);
+            player1.IsInCasino = true;
+            player2.IsInCasino = true;
+
+            m.payForSleep(player1);
+            Assert.AreEqual(false, player1.IsInCasino);
+            m.payForSleep(player2);
+            Assert.AreEqual(true, player1.IsInCasino);
+        }
+
         //need user's input
         [Test]
         public void TestPlayGame()
@@ -280,6 +307,22 @@ namespace MonopolyTest
             for (int k =0;k<1000;k++)
             {
                 trueResult = m.rollDouble(player);
+                if (trueResult) break;
+            }
+            Assert.IsTrue(trueResult);
+        }
+        //Test gamble Double
+        [Test]
+        public void TestGambleDouble()
+        {
+
+            bool trueResult = false;
+            Player player = new Player("Tom", 1000);
+            Monopoly.Monopoly m = new Monopoly.Monopoly();
+            m.loadProperties();
+            for (int k = 0; k < 1000; k++)
+            {
+                trueResult = m.gambleDouble(player);
                 if (trueResult) break;
             }
             Assert.IsTrue(trueResult);

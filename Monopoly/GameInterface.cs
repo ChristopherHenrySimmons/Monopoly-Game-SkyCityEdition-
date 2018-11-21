@@ -12,5 +12,7 @@ namespace Monopoly
         bool endOfGame();
         void printWinner();
         void playOneGame(int playersCount);
+
+        void IsInCasino();
      }
 }
